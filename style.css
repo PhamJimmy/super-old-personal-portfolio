@@ -1,0 +1,68 @@
+html {
+      text-align: center;
+      background-image: url("https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+      background-size: cover;
+      color: white;
+      font-family: helvetica;
+}
+body {
+      background-color: rgba(0,0,0,.5);
+}
+a:hover {
+    text-shadow: 1px 1px 10px blue; /* text-shadow to help user see that they're hovering over a link */
+}
+header {
+    font-size: 45px;
+    text-shadow: 1px 1px 5px #000; /* text-shadow helps visibility of the white text on dark background */
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px 0;
+}
+img {
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 10px;
+    width: 250px;
+    height: auto;
+}
+main {
+    background: linear-gradient(bottom, rgba(0,0,0,.7), rgba(0,0,0,.01));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,.7), rgba(0,0,0,.01));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,.7), rgba(0,0,0,.01));
+}
+h1, h2 {
+    text-shadow: 1px 1px 5px #000; /* text-shadow helps visibility of the white text on dark background */
+}
+#intro p {
+    text-align: left;
+    font-size: 18px;
+    text-shadow: 1px 1px 5px #000; /* text-shadow helps visibility of the white text on dark background */
+}
+p {
+    font-size: 18px;
+    text-shadow: 1px 1px 5px #000; /* text-shadow helps visibility of the white text on dark background */
+}
+hr {
+    width: 75%;
+    text-shadow: 1px 1px 5px #000; /* text-shadow helps visibility of the white text on dark background */
+}
+a {
+    color: white;
+    text-decoration: none; /* email underline is ugly, this removes the underline */
+}
+div {
+    margin: 0 auto; /* center the div */
+    max-width: 500px; /* make sure the width isn't too big */
+}
+#external-links {
+    margin: 0 auto;
+    width:fit-content;
+    text-align: left;
+}
+#projects {
+    width:fit-content
+}
+footer {
+    padding: 10px 0;
+    background: rgba(0,0,0,0.7);
+}
