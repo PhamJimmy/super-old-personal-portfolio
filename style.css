@@ -60,7 +60,16 @@ div {
     text-align: left;
 }
 #projects {
-    width:fit-content
+    display: flex;
+    justify-content: center;
+}
+#project-links {
+    display: flex;
+    flex-direction: column;
+}
+.project {
+    align-items: center;
+    text-align: left;
 }
 footer {
     padding: 10px 0;
